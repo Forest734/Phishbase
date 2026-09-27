@@ -1,0 +1,22 @@
+{
+  "name": "phishbase",
+  "version": "0.1.0",
+  "description": "Navigate Phish setlists, show notes and photos",
+  "private": true,
+  "type": "module",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js",
+    "test": "node --test",
+    "build": "node scripts/build-pages.js",
+    "import": "node scripts/import-phishin.js",
+    "import:photos": "node scripts/import-photos.js"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}

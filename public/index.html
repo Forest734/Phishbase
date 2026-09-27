@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Phishbase</title>
+  <link rel="icon" href="logo.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <a class="brand" href="#/"><h1>Phishbase</h1></a>
+    <nav>
+      <a href="#/">Years</a>
+      <a href="#/tours">Tours</a>
+      <a href="#/songs">Songs</a>
+      <a href="#/stats">Stats</a>
+    </nav>
+    <form id="search" role="search">
+      <input type="search" name="q" placeholder="Venue, city, tour, or 1997-11-22" aria-label="Search shows">
+    </form>
+    <a id="start-over" class="chip" href="#/" title="Back to the home page, with no search or filters">Start over</a>
+  </header>
+  <main id="view" aria-live="polite"></main>
+  <footer>
+    Setlists, show notes and cover art from <a href="https://phish.in">phish.in</a>
+    (<a href="https://github.com/jcraigk/phishin">open source</a>), whose Jam Charts
+    notes come from <a href="https://phish.net/jamcharts">Phish.net</a>.
+    Photos from <a href="https://commons.wikimedia.org/wiki/Category:Phish">Wikimedia Commons</a>,
+    credited on each one.
+  </footer>
+  <script type="module" src="main.js"></script>
+</body>
+</html>
